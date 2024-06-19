@@ -164,7 +164,7 @@ public class Main {
         System.out.println("Iniciando...");
         hashingComEncadeamento(randomList100k, randomList300k);
         System.out.println(result);
-        //hashingComEnderecamentoAberto(randomList100k, randomList300k);
-        //System.out.println(result);
+        hashingComEnderecamentoAberto(randomList100k, randomList300k);
+        System.out.println(result);
     }
 }
