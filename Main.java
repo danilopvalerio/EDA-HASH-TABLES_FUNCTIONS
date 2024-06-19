@@ -58,6 +58,8 @@ public class Main {
         }
         long searchTime = System.currentTimeMillis() - startTime;
         System.out.println("Tempo de busca: " + searchTime + " ms");
+        System.out.println("Colisões " + hashTable.getCollisions());
+        //hashTable.printTable();
     }
 
     //OK
@@ -162,7 +164,7 @@ public class Main {
         System.out.println("Iniciando...");
         hashingComEncadeamento(randomList100k, randomList300k);
         System.out.println(result);
-        hashingComEnderecamentoAberto(randomList100k, randomList300k);
-        System.out.println(result);
+        //hashingComEnderecamentoAberto(randomList100k, randomList300k);
+        //System.out.println(result);
     }
 }
